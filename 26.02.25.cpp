@@ -1,3 +1,7 @@
+//problem link:- https://leetcode.com/problems/number-of-provinces/description/
+
+//problem name:- Number of provinces
+
 #include <vector>
 using namespace std;
 class Solution {
@@ -26,3 +30,8 @@ class Solution {
             return count;
         }
     };
+
+//approach;- Using Graph Tracersal(DFS)
+
+//TC=O(n^2)
+//SC=O(n) because of recursive stack worst case
