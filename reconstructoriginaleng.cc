@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/reconstruct-original-digits-from-english/
+#include<iostream>
 #include <string>
 #include <vector>
 #include <array>
@@ -33,3 +35,7 @@ public:
         return ans;
     }
 };
+
+//TC=O(n)
+//SC=O(n)
+
