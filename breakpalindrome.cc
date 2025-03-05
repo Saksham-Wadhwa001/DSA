@@ -22,6 +22,9 @@ class Solution {
             return palindrome;
         }
     };
+//Approach- As we have to return answer in lexicographically smallest then we have to change the first character which is non 'a' to 'a' 
+//and we have to find that char in first half of the string as in the second half we can have a case in which the resultant string will still be
+// a palindrome like in aba;
 
 //TC = O(n)
 //SC = O(1)
