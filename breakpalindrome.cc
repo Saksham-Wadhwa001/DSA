@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/break-a-palindrome/
+#include<iostream>
 #include <string>
 #include <vector>
 #include <array>
@@ -20,4 +22,6 @@ class Solution {
             return palindrome;
         }
     };
-    
+
+//TC = O(n)
+//SC = O(1)
